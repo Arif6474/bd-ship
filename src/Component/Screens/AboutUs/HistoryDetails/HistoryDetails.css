@@ -1,0 +1,117 @@
+.bsaa {
+    background-image: url(../../../../assets/images/bsaaHistory.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 81px;
+    padding-bottom: 186px;
+}
+.bsaa-history-content{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.short-history{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.bsaaTitle {
+    max-width: 577px;
+    margin: auto;
+}
+.bsaaTitle h1 {
+    font-weight: bold;
+    font-size: 40.7px;
+    line-height: 5rem;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #E6EAF5;
+    margin-bottom: 1.8rem;
+}
+.bsaaTitle p {
+    font-weight: normal;
+    font-size: 14.4px;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #E6EAF5;
+    margin-bottom: 12.4rem;
+}
+.historyContainer {
+    max-width: 556px;
+    margin: auto;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.hisoryDetails {
+    margin-bottom: 10.3rem;
+}
+.histo{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.hisoryDetails img {
+    margin-bottom: 3.5rem;
+}
+.hisoryDetails h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 4.6rem;
+    letter-spacing: -0.03em;
+    color: #BBC9ED;
+    position: relative;
+}
+.hisoryDetails p {
+    font-weight: normal;
+    font-size: 14.4px;
+    line-height: 2.5rem;
+    color: #E6EAF5;
+}
+.hisoryDetails h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 110%;
+    bottom: 0;
+    margin: auto;
+    width: 500%;
+    height: 2px;
+    background-color: #BBC9ED;
+}
+@media (max-width: 767.98px){
+    .bsaa {
+        padding-top: 28px;
+        padding-bottom: 86px;
+    }
+    .bsaaTitle h1 {
+        font-size: 30px;
+        line-height: 62px;
+        margin-bottom: 25px;
+    }
+    .bsaaTitle p {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 59px;
+        font-weight: normal;
+    }
+    .historyContainer {
+        overflow: hidden;
+    }
+    .hisoryDetails img {
+        margin-bottom: 26px;
+    }
+    .hisoryDetails h1 {
+        font-size: 22px;
+        line-height: 25px;
+        letter-spacing: -0.03em;
+        margin-bottom: 21px;
+    }
+    .hisoryDetails p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 25px;
+    }
+}

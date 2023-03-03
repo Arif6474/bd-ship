@@ -1,0 +1,108 @@
+.news{
+    background: #061425;
+
+}
+.newsBlog {
+    padding-top: 9rem;
+    padding-bottom: 19.1rem;
+    border-bottom: 1px solid rgba(187, 201, 237, 0.3);
+}
+.news-blog-content{
+    --bs-gutter-x: 2.5rem;
+    --bs-gutter-y: 2.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+ 
+}
+.news-blog{
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.newsCard {
+    background-color: transparent;
+    border-radius: 0;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+}
+.newsCard .card-body {
+    padding: 0;
+    max-width: 612px;
+}
+.card-body {
+    flex: 1 1 auto;
+}
+.newsCard h6 {
+    font-weight: normal;
+    font-size: 13.5px;
+    line-height: 1.7rem;
+    letter-spacing: -0.02em;
+    color: #BBC9ED;
+    margin-bottom: 1rem;
+    padding-top: 10px;
+}
+.newsCard h1 {
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 3.8rem;
+    letter-spacing: -0.03em;
+    color: #E6EAF5;
+    margin-bottom: 1rem;
+}
+.newsCard p {
+    font-weight: normal;
+    font-size: 14.4px;
+    line-height: 3rem;
+    color: #E6EAF5;
+}
+@media (max-width: 767.98px){
+    .newsBlog {
+        padding-top: 36px;
+        padding-bottom: 65px;
+    }
+    .news-blog-content {
+        flex-direction: column;
+    }
+    .news-blog {
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    .newsCard img {
+        margin-bottom: 2rem;
+    }
+    .newsCard h6 {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: -0.02em;
+    }
+    .newsCard h1 {
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: -0.03em;
+    }
+    .newsCard p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

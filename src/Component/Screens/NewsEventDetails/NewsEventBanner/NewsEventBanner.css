@@ -1,0 +1,9 @@
+.news-banner-img{
+    background-image: url(../../../../assets/images/pageTitleBg/blogDetails.png)
+}
+.news-banner-wrapper{
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 61.3rem;
+}

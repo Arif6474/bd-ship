@@ -1,0 +1,44 @@
+.welcome-bsaa {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.welcomeNote {
+  flex: 0 0 auto;
+  width: 100%;
+  padding-top: 38px;
+  padding-bottom: 99px;
+  max-width: 1015px;
+}
+.welcomeNote h1 {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 5.2rem;
+    letter-spacing: -0.03em;
+    color: #E6EAF5;
+    margin-bottom: 33px;
+}
+.welcomeNote p {
+    font-weight: normal;
+    font-size: 14.4px;
+    line-height: 2.5rem;
+    color: #E6EAF5;
+}
+@media (max-width: 767.98px){
+.welcomeNote {
+ padding: 21px 6px 55px;
+}
+.welcomeNote h1 {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+}
+.welcomeNote p {
+  font-size: 14px;
+  line-height: 25px;
+}
+}

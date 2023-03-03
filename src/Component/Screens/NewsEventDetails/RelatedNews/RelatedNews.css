@@ -1,0 +1,101 @@
+.related-news{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    padding: 0 6px;
+}
+.related-news-title{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.relTitle {
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 3.9rem;
+    letter-spacing: -0.03em;
+    color: #E6EAF5;
+    margin-bottom: 34px;
+}
+.relatedNewsBx {
+    padding-bottom: 156px;
+}
+.related-news-card{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.relNewsCard {
+    display: flex;
+    margin-bottom: 33px;
+    align-items: center;
+}
+.relNewsCard>div:first-child {
+    max-width: 165px;
+    margin-right: 2rem;
+}
+.relNewsCard>div:last-child {
+    max-width: 334px;
+}
+.relNewsCard>div:first-child h6 {
+    display: none;
+}
+.relNewsCard h6 {
+    font-weight: normal;
+    font-size: 13.5px;
+    line-height: 1.7rem;
+    letter-spacing: -0.02em;
+    color: #BBC9ED;
+    margin-bottom: 1.2rem;
+}
+.relNewsCard img {
+    width: 100%;
+}
+.relNewsCard h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: -0.03em;
+    color: #E6EAF5;
+}
+@media (max-width: 767.98px){
+    .relTitle {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.03em;
+        margin-bottom: 34px;
+    }
+    .related-news {
+        flex-direction: column;
+    }
+    .related-news-card {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .relatedNewsBx {
+        padding-bottom: 194px;
+    }
+    .relNewsCard>div:first-child {
+        max-width: 125px;
+        margin-right: 27px;
+    }
+    .relNewsCard>div:first-child h6 {
+        display: block;
+        margin-bottom: 11px;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: -0.02em;
+    }
+    .relNewsCard>div:last-child h6 {
+        display: none;
+    }
+    .relNewsCard h1 {
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.03em;
+        max-width: 162px;
+        padding-top: 15px;
+    }
+}

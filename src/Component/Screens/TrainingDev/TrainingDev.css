@@ -1,0 +1,33 @@
+.overlayContainer {
+    position: relative;
+    margin-bottom: 2rem;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(17, 43, 109, 0.4), rgba(17, 43, 109, 0.4));
+}
+.overlay button {
+    height: 72px;
+    width: 72px;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.overlay button img {
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 767.98px){
+    .overlayContainer img {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,16 @@
+.banner-img{
+    background-image: url(../../../../assets/images/aboutUsHero.svg);
+   
+}
+.imageGradiant {
+    padding-top: 20px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(6, 20, 37, 0.75) 0%, rgba(6, 20, 37, 0.35) 19.93%, rgba(6, 20, 37, 0) 39.81%);
+}
+.nav-wrapper {
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: top center;
+}

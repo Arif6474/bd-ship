@@ -1,0 +1,121 @@
+.shipStat {
+  padding-top: 8rem;
+  padding-bottom: 23.4rem;
+}
+.shipping-content {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  align-items: flex-end;
+}
+.shipping-img {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+.shipStatImg {
+  max-width: 407px;
+  width: 100%;
+}
+.w-100 {
+  width: 100% !important;
+}
+.shipping-info {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+.shipStatDetails {
+  margin-left: 163px;
+}
+.shipStatDetails img {
+  width: 83px;
+  height: 83px;
+  margin-bottom: 2.4rem;
+}
+.shipStatDetails h1 {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 5.2rem;
+  letter-spacing: -0.03em;
+  color: #e6eaf5;
+  max-width: 529px;
+  margin-bottom: 1.6rem;
+}
+.shipStatDetails h6 {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 2.6rem;
+  letter-spacing: -0.02em;
+  color: #bbc9ed;
+  max-width: 370px;
+  margin-bottom: 3.5rem;
+}
+.shipStatDetails h6 span {
+  font-weight: bold;
+}
+.shipStatDetails p {
+  font-weight: normal;
+  font-size: 14.4px;
+  line-height: 3rem;
+  color: #e6eaf5;
+  max-width: 621px;
+  margin-bottom: 24px;
+}
+.btn-brand svg {
+  height: 13px;
+  width: 13px;
+}
+@media (max-width: 767.98px) {
+  .shipStat {
+    padding-top: 34px;
+    padding-bottom: 92px;
+  }
+  .shipping-content {
+    flex-direction: column;
+    padding: 0 6px;
+  }
+  .shipping-img {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.shipping-info {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.shipStatImg {
+  max-width: 195px;
+  margin: auto;
+}
+.shipStatDetails {
+  margin-left: 0;
+  margin-top: 39px;
+}
+.shipStatDetails img {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 17px;
+}
+.shipStatDetails h1 {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
+}
+.shipStatDetails h6 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+.shipStatDetails p {
+  font-size: 14px;
+  line-height: 25px;
+}
+.shipStatDetails h6 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+}

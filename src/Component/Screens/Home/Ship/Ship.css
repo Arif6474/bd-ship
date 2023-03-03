@@ -1,0 +1,131 @@
+.shipBg {
+    background-image: url(../../../../assets/images/Page1/ShipUpdate.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ship{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.ship-title{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.shiptitle {
+    font-weight: bold;
+    font-size: 40.7px;
+    line-height: 5rem;
+    letter-spacing: -0.03em;
+    color: #E6EAF5;
+    max-width: 400px;
+    margin-top: 67px;
+    margin-bottom: 171px;
+}
+.ship-content{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.shipInfo .iconBx {
+    position: relative;
+}
+.shipInfo img {
+    display: block;
+    height: 39px;
+    width: 39px;
+}
+.shipInfo .iconBx::before {
+    content: '';
+    position: absolute;
+    bottom: -2.1rem;
+    left: 0;
+    right: 0;
+    height: 2px;
+    max-width: 100%;
+    background-color: #6F81AE;
+}
+.shipInfo .iconBx::after {
+    content: '';
+    position: absolute;
+    bottom: -2.1rem;
+    left: 0;
+    right: 0;
+    height: 2px;
+    max-width: 20%;
+    background-color: #BBC9ED;
+}
+.shipInfo .descBx {
+    max-width: 385px;
+    margin-top: 5rem;
+    margin-bottom: 22.2rem;
+}
+.shipInfo .descBx p {
+    font-weight: normal;
+    font-size: 14.4px;
+    line-height: 2.5rem;
+    color: #E6EAF5;
+}
+.rightBx1 img {
+    margin-left: auto;
+}
+.rightBx1 .iconBx::after {
+    left: 80%;
+}
+.rightBx1 .descBx {
+    margin-left: auto;
+    text-align: right;
+}
+@media (max-width: 767.98px){
+    .rightBx1 img {
+        margin-left: 0px;
+    }
+    .rightBx1 .iconBx::after {
+        content: '';
+        position: absolute;
+        bottom: -2.1rem;
+        left: 0;
+        right: 0;
+        height: 2px;
+        max-width: 20%;
+        background-color: #BBC9ED;
+    }
+    .rightBx1 .descBx {
+        margin-left: 0px;
+        text-align: start;
+    }
+    .shiptitle {
+        font-weight: bold;
+        margin-bottom: 150px;
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: -0.03em;
+    }
+    .ship {
+        flex-direction: column;
+    }
+    .ship-content {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .shipInfo .iconBx::before {
+        max-width: 50%;
+    }
+    .shipInfo img {
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+    .shipInfo .descBx {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,49 @@
+.historyMobileImg {
+  display: none;
+}
+.giving-guidelines img {
+  width: 100%;
+}
+.valuableSection {
+  background-image: url("../../../../assets/images/Page1/react5.png");
+  background-position: center right;
+  background-size: cover;
+  padding-top: 107px;
+  padding-bottom: 61.7rem;
+}
+.valuableSection h3 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 4.6rem;
+  letter-spacing: -0.03em;
+  color: #e6eaf5;
+  max-width: 535px;
+  margin-bottom: 2rem;
+}
+.valuableSection p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 3rem;
+  color: #e6eaf5;
+  max-width: 521px;
+}
+@media (max-width: 767.98px){
+  .valuableSection {
+    background-image: none;
+    background-color: #061425;
+    padding-bottom: 64px;
+    padding-top: 35px;
+    margin-top: -2px;
+}
+.valuableSection h3 {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  color: #E6EAF5;
+}
+.valuableSection p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+}

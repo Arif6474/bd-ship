@@ -1,0 +1,283 @@
+.memberDetails {
+    padding-top: 85px;
+    padding-bottom: 219px;
+    background: #061425;
+}
+.members{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    align-items: center;
+}
+.member-title{
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+.membersTitle {
+    font-weight: bold;
+    font-size: 40.7px;
+    line-height: 5.6rem;
+    letter-spacing: -0.03em;
+    color: #E6EAF5;
+}
+.member-search{
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+.member-select{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.member-search-input{
+    flex: 0 0 auto;
+    width: 50%;
+    margin-bottom: 0!important;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.select-member{
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+    flex: 0 0 auto;
+    width: 39.33333333%;
+    display: flex;
+
+}
+.form-select {
+    background-image: url(../../../assets/images/InputField/fi_chevron-down\ \(1\).svg);
+    background-size: 24px;
+  
+}
+.form-select {
+    display: block;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.download{
+    flex: 0 0 auto;
+    width: 16.66666667%;
+    margin-left: 10px;
+}
+.btn-download {
+    padding: 1.9rem;
+    border: 2px solid rgba(187, 201, 237, 0.3);
+}
+.memberItems{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.member-item{
+    padding: 0 6px;
+    flex: 0 0 auto;
+    width: 100%;
+
+}
+.memeberItem {
+    padding-top: 51px;
+    padding-bottom: 47px;
+    border-bottom: 1px solid rgba(187, 201, 237, 0.3);
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    align-items: center;
+}
+.member-info{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    padding: 0 6px;
+}
+.companyNameImg img {
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+    margin-bottom: 1.6rem;
+}
+.companyNameImg h3 {
+    font-weight: bold;
+    font-size: 18.6px;
+    line-height: 2.7rem;
+    letter-spacing: -0.03em;
+    color: #E6EAF5;
+    margin-bottom: 0.8rem;
+}
+.companyNameImg h6 {
+    font-weight: normal;
+    font-size: 15.2px;
+    line-height: 2.2rem;
+    color: #BBC9ED;
+}
+.memberAddress {
+    display: flex;
+    margin-bottom: 20px;
+}
+.memberAddress>div {
+    font-weight: normal;
+    font-size: 13.5px;
+    line-height: 2.4rem;
+    color: #E6EAF5;
+    max-width: 223px;
+}
+.memberAddress img {
+    height: 16px;
+    width: 16px;
+    margin-right: 1.4rem;
+}
+.memberNameImg img {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center center;
+    margin-bottom: 1.6rem;
+}
+.memberNameImg h3 {
+    font-weight: bold;
+    font-size: 13.5px;
+    line-height: 2.2rem;
+    letter-spacing: -0.03em;
+    color: #E6EAF5;
+    margin-bottom: 0.8rem;
+}
+.memberNameImg h6 {
+    font-weight: normal;
+    font-size: 13.5px;
+    line-height: 2.4rem;
+    color: #E6EAF5;
+}
+.proud-member{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.memeberItem:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+@media (max-width: 767.98px){
+    .memberDetails {
+        padding-top: 0;
+    }
+    .members {
+        flex-direction: column;
+        align-items: flex-start;
+    } 
+    .membersTitle {
+        font-size: 25px;
+        line-height: 42px;
+        letter-spacing: -0.03em;
+        margin-bottom: 8px;
+    }
+    .member-title {
+        padding: 0px 10px;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .member-search {
+        padding: 0px 10px;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .member-select {
+        flex-direction: column;
+    }
+    .member-search-input {
+        width: 100%;
+    }
+    .searchMember {
+        background-size: 15px;
+        padding-left: 11px;
+        padding-right: 3.5rem;
+    }
+    .form-control, .form-select {
+        font-size: 12px;
+        line-height: 24px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .select-member {
+        margin-top: 10px;
+        flex: 0 0 auto;
+    width: 100%;
+    }
+    .download {
+        flex: 0 0 auto;
+        width: 30.666667%;
+        margin-left: 10px;
+       
+    }
+    .btn-download img {
+        height: 15px;
+        width: 15px;
+    }
+    .btn-download {
+        width: 100%;
+        padding: 0.9rem;
+        border: 2px solid rgba(187, 201, 237, 0.3);
+    }
+    .form-select {
+        background-size: 15px;
+        padding-left: 11px;
+    }
+
+    .memeberItem {    
+        flex-direction: column;
+    }
+    .member-info {
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 0 6px;
+    }
+    .companyNameImg {
+        padding-bottom: 28px;
+    }
+    .memberNameImg {
+        padding-top: 32px;
+    }
+    .becomeMemberBx h1 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+        text-align: center;
+        letter-spacing: -0.03em;
+    }
+    .becomeMemberBx p {
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+    }
+ 
+}
